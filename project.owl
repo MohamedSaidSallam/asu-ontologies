@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <Ontology xmlns="http://www.w3.org/2002/07/owl#" xml:base="http://www.semanticweb.org/sameh/ontologies/2022/4/untitled-ontology-2" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xml="http://www.w3.org/XML/1998/namespace" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" ontologyIRI="http://www.semanticweb.org/sameh/ontologies/2022/4/untitled-ontology-2">
+    <Prefix name="" IRI="http://www.semanticweb.org/sameh/ontologies/2022/4/untitled-ontology-2" />
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#" />
     <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#" />
     <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace" />
@@ -46,6 +47,9 @@
     </Declaration>
     <Declaration>
         <DataProperty IRI="#bylaw" />
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#cgpa" />
     </Declaration>
     <Declaration>
         <DataProperty IRI="#code" />
@@ -237,6 +241,10 @@
         <DataProperty abbreviatedIRI="owl:topDataProperty" />
     </SubDataPropertyOf>
     <SubDataPropertyOf>
+        <DataProperty IRI="#cgpa" />
+        <DataProperty abbreviatedIRI="owl:topDataProperty" />
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
         <DataProperty IRI="#code" />
         <DataProperty abbreviatedIRI="owl:topDataProperty" />
     </SubDataPropertyOf>
@@ -340,6 +348,25 @@
                 <Literal>2018</Literal>
             </DataHasValue>
         </ObjectUnionOf>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#cgpa" />
+        <Class IRI="#Student" />
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#cgpa" />
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#cgpa" />
+            <DatatypeRestriction>
+                <Datatype abbreviatedIRI="xsd:float" />
+                <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#minInclusive">
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">0.0</Literal>
+                </FacetRestriction>
+                <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#maxInclusive">
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">4.0</Literal>
+                </FacetRestriction>
+            </DatatypeRestriction>
+        </DataSomeValuesFrom>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#code" />
@@ -473,6 +500,10 @@
     <DataPropertyRange>
         <DataProperty IRI="#bylaw" />
         <Datatype abbreviatedIRI="xsd:string" />
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#cgpa" />
+        <Datatype abbreviatedIRI="xsd:float" />
     </DataPropertyRange>
     <DataPropertyRange>
         <DataProperty IRI="#code" />
