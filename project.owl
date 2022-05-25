@@ -130,6 +130,9 @@
         <NamedIndividual IRI="#Dr2" />
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#TA1" />
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Student_1" />
     </Declaration>
     <Declaration>
@@ -231,6 +234,10 @@
     <ClassAssertion>
         <Class IRI="#Instructor" />
         <NamedIndividual IRI="#Dr2" />
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Instructor" />
+        <NamedIndividual IRI="#TA1" />
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Training" />
@@ -461,6 +468,56 @@
         <DataProperty IRI="#user_name" />
         <NamedIndividual IRI="#Dr2" />
         <Literal>Dr 2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#office_hours" />
+        <NamedIndividual IRI="#TA1" />
+        <Literal>Thurs 10-12</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#position" />
+        <NamedIndividual IRI="#TA1" />
+        <Literal>Professor</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#address" />
+        <NamedIndividual IRI="#TA1" />
+        <Literal>3500 Deer Creek Palo Alto, CA 94304</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#birthdate" />
+        <NamedIndividual IRI="#TA1" />
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1999-09-09T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#gender" />
+        <NamedIndividual IRI="#TA1" />
+        <Literal>Male</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#mobile" />
+        <NamedIndividual IRI="#TA1" />
+        <Literal>01000101258</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#national_id" />
+        <NamedIndividual IRI="#TA1" />
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#positiveInteger">1234567821234</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#user_email" />
+        <NamedIndividual IRI="#TA1" />
+        <Literal>TA1@eng.asu.edu.eg</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#user_id" />
+        <NamedIndividual IRI="#TA1" />
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#positiveInteger">1010</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#user_name" />
+        <NamedIndividual IRI="#TA1" />
+        <Literal>TA 1</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#end_date" />
