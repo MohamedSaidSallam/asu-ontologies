@@ -108,6 +108,27 @@
     <Declaration>
         <DataProperty IRI="#weeks" />
     </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Course_1" />
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Course_2" />
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Course_3" />
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Course_4" />
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DevOps_Training" />
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dr1" />
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ML_Training" />
+    </Declaration>
     <SubClassOf>
         <Class IRI="#Instructor" />
         <Class IRI="#User" />
@@ -168,6 +189,189 @@
         <Class IRI="#Instructor" />
         <Class IRI="#Student" />
     </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#Course" />
+        <NamedIndividual IRI="#Course_1" />
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Course" />
+        <NamedIndividual IRI="#Course_2" />
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Course" />
+        <NamedIndividual IRI="#Course_3" />
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Course" />
+        <NamedIndividual IRI="#Course_4" />
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Training" />
+        <NamedIndividual IRI="#DevOps_Training" />
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Instructor" />
+        <NamedIndividual IRI="#Dr1" />
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Training" />
+        <NamedIndividual IRI="#ML_Training" />
+    </ClassAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#bylaw" />
+        <NamedIndividual IRI="#Course_1" />
+        <Literal>2018</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#code" />
+        <NamedIndividual IRI="#Course_1" />
+        <Literal>CSE123</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#course_name" />
+        <NamedIndividual IRI="#Course_1" />
+        <Literal>Course 1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#credit_hours" />
+        <NamedIndividual IRI="#Course_1" />
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#positiveInteger">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#bylaw" />
+        <NamedIndividual IRI="#Course_2" />
+        <Literal>2013</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#code" />
+        <NamedIndividual IRI="#Course_2" />
+        <Literal>CSE321</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#course_name" />
+        <NamedIndividual IRI="#Course_2" />
+        <Literal>Course 2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#credit_hours" />
+        <NamedIndividual IRI="#Course_2" />
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#positiveInteger">4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#bylaw" />
+        <NamedIndividual IRI="#Course_3" />
+        <Literal>2018</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#code" />
+        <NamedIndividual IRI="#Course_3" />
+        <Literal>HUM123</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#course_name" />
+        <NamedIndividual IRI="#Course_3" />
+        <Literal>Course 3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#credit_hours" />
+        <NamedIndividual IRI="#Course_3" />
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#positiveInteger">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#bylaw" />
+        <NamedIndividual IRI="#Course_4" />
+        <Literal>2018</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#code" />
+        <NamedIndividual IRI="#Course_4" />
+        <Literal>CSE213</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#course_name" />
+        <NamedIndividual IRI="#Course_4" />
+        <Literal>Course 4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#credit_hours" />
+        <NamedIndividual IRI="#Course_4" />
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#positiveInteger">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#end_date" />
+        <NamedIndividual IRI="#DevOps_Training" />
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2022-11-10T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#provider" />
+        <NamedIndividual IRI="#DevOps_Training" />
+        <Literal>Sprints</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#start_date" />
+        <NamedIndividual IRI="#DevOps_Training" />
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2022-10-10T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#succeeded" />
+        <NamedIndividual IRI="#DevOps_Training" />
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#training_term" />
+        <NamedIndividual IRI="#DevOps_Training" />
+        <Literal>Spring2022</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#weeks" />
+        <NamedIndividual IRI="#DevOps_Training" />
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#positiveInteger">4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#gender" />
+        <NamedIndividual IRI="#Dr1" />
+        <Literal>Male</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#office_hours" />
+        <NamedIndividual IRI="#Dr1" />
+        <Literal>Thurs 10-12</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#position" />
+        <NamedIndividual IRI="#Dr1" />
+        <Literal>Professor</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#end_date" />
+        <NamedIndividual IRI="#ML_Training" />
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2022-11-15T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#provider" />
+        <NamedIndividual IRI="#ML_Training" />
+        <Literal>ITI</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#start_date" />
+        <NamedIndividual IRI="#ML_Training" />
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2022-10-15T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#succeeded" />
+        <NamedIndividual IRI="#ML_Training" />
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#training_term" />
+        <NamedIndividual IRI="#ML_Training" />
+        <Literal>Summer2022</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#weeks" />
+        <NamedIndividual IRI="#ML_Training" />
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#positiveInteger">4</Literal>
+    </DataPropertyAssertion>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#advises" />
         <ObjectProperty abbreviatedIRI="owl:topObjectProperty" />
