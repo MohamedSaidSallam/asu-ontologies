@@ -356,11 +356,6 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#positiveInteger">4</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#gender" />
-        <NamedIndividual IRI="#Dr1" />
-        <Literal>Male</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
         <DataProperty IRI="#office_hours" />
         <NamedIndividual IRI="#Dr1" />
         <Literal>Thurs 10-12</Literal>
@@ -369,6 +364,46 @@
         <DataProperty IRI="#position" />
         <NamedIndividual IRI="#Dr1" />
         <Literal>Professor</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#address" />
+        <NamedIndividual IRI="#Dr1" />
+        <Literal>3500 Deer Creek Palo Alto, CA 94304</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#birthdate" />
+        <NamedIndividual IRI="#Dr1" />
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1999-09-09T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#gender" />
+        <NamedIndividual IRI="#Dr1" />
+        <Literal>Male</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#mobile" />
+        <NamedIndividual IRI="#Dr1" />
+        <Literal>01000101258</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#national_id" />
+        <NamedIndividual IRI="#Dr1" />
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#positiveInteger">1234567821234</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#user_email" />
+        <NamedIndividual IRI="#Dr1" />
+        <Literal>Dr1@eng.asu.edu.eg</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#user_id" />
+        <NamedIndividual IRI="#Dr1" />
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#positiveInteger">1010</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#user_name" />
+        <NamedIndividual IRI="#Dr1" />
+        <Literal>Dr 1</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#end_date" />
