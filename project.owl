@@ -1289,7 +1289,7 @@
     </DataPropertyRange>
     <DataPropertyRange>
         <DataProperty IRI="#user_id"/>
-        <Datatype abbreviatedIRI="xsd:positiveInteger"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
     </DataPropertyRange>
     <DataPropertyRange>
         <DataProperty IRI="#user_name"/>
