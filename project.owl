@@ -127,6 +127,18 @@
         <NamedIndividual IRI="#Dr1" />
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Student_1" />
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Student_2" />
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Student_13" />
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Student_61" />
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#ML_Training" />
     </Declaration>
     <SubClassOf>
@@ -216,6 +228,22 @@
     <ClassAssertion>
         <Class IRI="#Training" />
         <NamedIndividual IRI="#ML_Training" />
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Student" />
+        <NamedIndividual IRI="#Student_1" />
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Student" />
+        <NamedIndividual IRI="#Student_2" />
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Student" />
+        <NamedIndividual IRI="#Student_13" />
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Student" />
+        <NamedIndividual IRI="#Student_61" />
     </ClassAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#bylaw" />
@@ -371,6 +399,206 @@
         <DataProperty IRI="#weeks" />
         <NamedIndividual IRI="#ML_Training" />
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#positiveInteger">4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#address" />
+        <NamedIndividual IRI="#Student_1" />
+        <Literal>3500 Deer Creek Palo Alto, CA 94304</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#birthdate" />
+        <NamedIndividual IRI="#Student_1" />
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1999-09-09T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#cgpa" />
+        <NamedIndividual IRI="#Student_1" />
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">2.1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#gender" />
+        <NamedIndividual IRI="#Student_1" />
+        <Literal>Male</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#mobile" />
+        <NamedIndividual IRI="#Student_1" />
+        <Literal>01000100258</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#national_id" />
+        <NamedIndividual IRI="#Student_1" />
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#positiveInteger">1234567891234</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#student_id" />
+        <NamedIndividual IRI="#Student_1" />
+        <Literal>17P6060</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#user_email" />
+        <NamedIndividual IRI="#Student_1" />
+        <Literal>Student_1@eng.asu.edu.eg</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#user_id" />
+        <NamedIndividual IRI="#Student_1" />
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#positiveInteger">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#user_name" />
+        <NamedIndividual IRI="#Student_1" />
+        <Literal>Student 1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#address" />
+        <NamedIndividual IRI="#Student_2" />
+        <Literal>6311 Romaine St. Los Angeles, CA 90038</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#birthdate" />
+        <NamedIndividual IRI="#Student_2" />
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1999-08-21T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#cgpa" />
+        <NamedIndividual IRI="#Student_2" />
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">2.73</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#gender" />
+        <NamedIndividual IRI="#Student_2" />
+        <Literal>Male</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#mobile" />
+        <NamedIndividual IRI="#Student_2" />
+        <Literal>01220100258</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#national_id" />
+        <NamedIndividual IRI="#Student_2" />
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#positiveInteger">1224517831214</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#student_id" />
+        <NamedIndividual IRI="#Student_2" />
+        <Literal>17P8010</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#user_email" />
+        <NamedIndividual IRI="#Student_2" />
+        <Literal>17P8010@eng.asu.edu.eg</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#user_id" />
+        <NamedIndividual IRI="#Student_2" />
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#positiveInteger">91</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#user_name" />
+        <NamedIndividual IRI="#Student_2" />
+        <Literal>Student 2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#address" />
+        <NamedIndividual IRI="#Student_13" />
+        <Literal>1311 Abbot Kinney Blvd., Venice, CA 90291</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#birthdate" />
+        <NamedIndividual IRI="#Student_13" />
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1989-07-23T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#cgpa" />
+        <NamedIndividual IRI="#Student_13" />
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">3.41</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#gender" />
+        <NamedIndividual IRI="#Student_13" />
+        <Literal>Male</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#mobile" />
+        <NamedIndividual IRI="#Student_13" />
+        <Literal>01220900418</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#national_id" />
+        <NamedIndividual IRI="#Student_13" />
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#positiveInteger">1324517891212</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#student_id" />
+        <NamedIndividual IRI="#Student_13" />
+        <Literal>17P6019</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#user_email" />
+        <NamedIndividual IRI="#Student_13" />
+        <Literal>17P6019@eng.asu.edu.eg</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#user_id" />
+        <NamedIndividual IRI="#Student_13" />
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#positiveInteger">93</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#user_name" />
+        <NamedIndividual IRI="#Student_13" />
+        <Literal>Student 13</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#address" />
+        <NamedIndividual IRI="#Student_61" />
+        <Literal>9601 Wilshire Blvd., 3rd Floor, Beverly Hills, CA 90210</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#birthdate" />
+        <NamedIndividual IRI="#Student_61" />
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1979-05-29T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#cgpa" />
+        <NamedIndividual IRI="#Student_61" />
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">0.83</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#gender" />
+        <NamedIndividual IRI="#Student_61" />
+        <Literal>Female</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#mobile" />
+        <NamedIndividual IRI="#Student_61" />
+        <Literal>01220900420</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#national_id" />
+        <NamedIndividual IRI="#Student_61" />
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#positiveInteger">1324117891312</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#student_id" />
+        <NamedIndividual IRI="#Student_61" />
+        <Literal>17P5019</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#user_email" />
+        <NamedIndividual IRI="#Student_61" />
+        <Literal>17P5019@eng.asu.edu.eg</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#user_id" />
+        <NamedIndividual IRI="#Student_61" />
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#positiveInteger">73</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#user_name" />
+        <NamedIndividual IRI="#Student_61" />
+        <Literal>Student 61</Literal>
     </DataPropertyAssertion>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#advises" />
@@ -786,5 +1014,4 @@
         <Datatype abbreviatedIRI="xsd:positiveInteger" />
     </DataPropertyRange>
 </Ontology>
-
 <!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
